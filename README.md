@@ -12,7 +12,7 @@ You need a personal access token for GitHub and must have the following scopes.
 
 https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
 
-## Create you first Hugo site
+## Create your first Hugo site
 
 Install [Hugo](https://gohugo.io/) using [Homebrew](https://brew.sh/).
 
@@ -64,12 +64,9 @@ phases:
     commands:
       # Build
       - hugo -v
-      - ls -la
-      - ls themes/hugo-theme-learn -la
   post_build:
     commands:
       # Post Build
-
 artifacts:
   base-directory: 'public'
   files:
